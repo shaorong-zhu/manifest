@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="origin" fetch=".." />
+    <default revision="release/dell-asm-8.1.0" remote="origin" sync-j="4" />
+
+  <project path="dell-idrac" name="dell-asm/dell-idrac.git">
+      <annotation name="MERGE_CHANGES_FROM_PREVIOUS" value="0"/>
+  </project>
+</manifest>

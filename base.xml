@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="origin" fetch=".." />
+    <default revision="release/dell-asm-8.1.0" remote="origin" sync-j="4" />
+
+  <project path="asm-core" name="dell-asm/asm-core.git">
+      <annotation name="MERGE_CHANGES_FROM_PREVIOUS" value="0"/>
+  </project>
+  <project path="asm-automation" name="dell-asm/asm-automation.git">
+      <annotation name="MERGE_CHANGES_FROM_PREVIOUS" value="0"/>
+  </project>
+  <project path="asm-deployer" name="dell-asm/asm-deployer.git">
+      <annotation name="MERGE_CHANGES_FROM_PREVIOUS" value="0"/>
+  </project>
+
+</manifest>
